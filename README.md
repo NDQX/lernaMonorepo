@@ -1,0 +1,1 @@
+explore manage monorepo with lerna
