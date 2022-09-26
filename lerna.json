@@ -3,5 +3,11 @@
   "useNx": true,
   "useWorkspaces": true,
   "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    }
+  },
   "version": "0.0.1"
 }
