@@ -1,7 +1,7 @@
 import './App.css';
 
-import {Header} from '@sense/header';
-import {Footer} from '@sense/footer';
+import {Header} from '@senseman/header';
+import {Footer} from '@senseman/footer';
 
 function Index() {
 	return (
