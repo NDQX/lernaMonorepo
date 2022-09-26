@@ -1,18 +1,18 @@
 import './App.css';
 
-import {Header} from 'header';
-import {Footer} from 'footer';
+import {Header} from '@sense/header';
+import {Footer} from '@sense/footer';
 
 function Index() {
-    return (
-        <>
-            <Header/>
-            <div>
-                Content!
-            </div>
-            <Footer/>
-        </>
-    );
+	return (
+		<>
+			<Header/>
+			<div>
+					Content!
+			</div>
+			<Footer/>
+		</>
+	);
 }
 
 

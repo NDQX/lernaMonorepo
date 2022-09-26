@@ -2,9 +2,10 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "init": "npx lerna bootstrap --use-workspaces",
+    "init": "lerna bootstrap --use-workspaces",
     "start:app": "cd ./packages/app && npm start",
-    "build": "npx lerna run build"
+    "build": "lerna run build",
+    "clean": "lerna run clean"
   },
   "devDependencies": {
     "lerna": "^5.5.2"
